@@ -1,0 +1,35 @@
+/* BasicPlanPage.css */
+
+.recharge-details-container {
+  max-width: 600px;
+  margin: 20px auto;
+  text-align: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.recharge-details-container h2 {
+  color: #333;
+}
+
+.recharge-details-container p {
+  margin: 10px 0;
+  color: #555;
+}
+
+.payment-btn {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 4px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.payment-btn:hover {
+  background-color: #45a049;
+}
+

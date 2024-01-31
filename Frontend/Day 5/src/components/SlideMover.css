@@ -1,0 +1,34 @@
+/* Add this to your CSS file or style section */
+
+.image-selection-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+  margin: 150px auto;
+  text-align: center;
+  position: relative; /* Added for positioning the text */
+}
+
+.selected-image {
+  margin-top: 20px;
+  max-width: 800px;
+  max-height: 600px;
+  position: relative; /* Added for positioning the text */
+}
+
+.selected-image img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-text {
+  position: absolute;
+  top: 10px; /* Adjust the top distance */
+  right: 10px; /* Adjust the right distance */
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}

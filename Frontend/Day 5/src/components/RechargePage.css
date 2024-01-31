@@ -1,0 +1,60 @@
+/* Add this to your CSS file or style section */
+
+.image-selection-container {
+    margin-top: 150px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .selected-image {
+    position: relative;
+    margin-bottom: 20px;
+    width: 800px; /* Set the width */
+    height: 600px; /* Set the height */
+    overflow: hidden;
+  }
+  
+  .selected-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .overlay-text {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: white;
+    text-align: right;
+  }
+  
+  .overlay-text .heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .overlay-text .slogan {
+    font-size: 14px;
+  }
+  
+  .checkout-button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .checkout-button:hover {
+    background-color: #45a049;
+  }
+  
